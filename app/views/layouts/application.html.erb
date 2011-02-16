@@ -18,7 +18,12 @@
 			<a href=".">Home</a><br />
 			<a href="./faq">Questions</a><br />
 			<a href="./news">News</a><br />
-			<a href="./contact">Contact</a><br />
+			<a href="./contact">Contact</a>
+			
+			<p>
+				<%= Time.now.strftime("Current Date: %m/%d/%Y") %><br />
+				<%= Time.now.strftime("Current Time: %I:%M %P") %>
+			</p>
 		</div>
 		<div id="main">
 			<%= yield %>
