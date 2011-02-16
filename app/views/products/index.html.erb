@@ -1,7 +1,9 @@
 <div id="product_list">
 	<h1>Listing Products</h1>
 	
+	<% if notice %>
 	<p id="notice"><%= notice %></p>
+	<% end %>
 	
 	<table>
 		<% @products.each do |product| %>
