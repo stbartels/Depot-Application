@@ -1,6 +1,8 @@
 <div id="product_list">
 	<h1>Listing Products</h1>
 	
+	<p id="notice"><%= notice %></p>
+	
 	<table>
 		<% @products.each do |product| %>
 			<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
@@ -18,7 +20,7 @@
 				<td class="list_actions">
 					<%= link_to 'Show', product %><br />
 					<%= link_to 'Edit', edit_product_path(product) %><br />
-					<%= link_to 'Destroy', product, :confirm => 'Are you sure?', :method => :delete %>
+					<%= link_to 'Destroy', product, :confirm => "Deleting will permanently delete '#{product.title}' from the product listings.\nAre you sure you want to do this?", :method => :delete %>
 				</td>
 				
 			</tr>

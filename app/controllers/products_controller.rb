@@ -76,7 +76,7 @@ class ProductsController < ApplicationController
     @product.destroy
 
     respond_to do |format|
-      format.html { redirect_to(products_url) }
+      format.html { redirect_to(products_url, :notice => "#{@product.title} was successfully removed from the product listings") }
       format.xml  { head :ok }
     end
   end
