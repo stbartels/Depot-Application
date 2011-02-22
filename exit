@@ -1,0 +1,89 @@
+[33mcommit 9619538b1ec69bfa3736356138905d64fae5b6b6[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 18:13:45 2011 -0600
+
+    Generated line_items table. Connected cart, products, and line_items together
+
+[33mcommit 22ef72c454aa2a12dd4deb00bce55fa01674dc29[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 17:59:55 2011 -0600
+
+    Generated cart table with sessions in application controller
+
+[33mcommit e4275b046c01b10162c2c7ec9144cf2f47b7504c[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 17:44:44 2011 -0600
+
+    Added functional testing to the Store and Product. Made a CSS layout for the application
+
+[33mcommit f6d699a2829e3e78d07b744104e5d3d36610cefe[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 13:35:39 2011 -0600
+
+    Added functional testing to HTML and CSS Store front
+
+[33mcommit 88313ba00b09179b124bcd7f8a3f503af3d439f1[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 13:12:00 2011 -0600
+
+    Updated views for store and products
+
+[33mcommit 0b88ff5d177f96a65356e141bdd17ec090f8c922[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 13:05:59 2011 -0600
+
+    Made the store listing prettier
+
+[33mcommit 3671d5a950cdc69d49a9573b7d437d90dee96041[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 12:50:50 2011 -0600
+
+    Generated a store controller, changed the root to the store view, display an ugly version of the products
+
+[33mcommit 60b65205de1822abf9d2b51a726325684fe88190[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 12:24:01 2011 -0600
+
+    Updated the validation, added delete notice
+
+[33mcommit d48607a9be3a73b5fd343f21445912ff4469f14a[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 11:51:55 2011 -0600
+
+    Added more validation testing
+
+[33mcommit 223ba28995122c7f6fbaab7093d26de98fb1d961[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Wed Feb 16 11:21:23 2011 -0600
+
+    Added unit testing to products validation
+
+[33mcommit 22f3f6353d17ee0ced20e8b323000b366c7006ba[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Tue Feb 15 21:47:04 2011 -0600
+
+    Added validation and unit testing to updating and creating a product listing
+
+[33mcommit 0629bcc3207471b7f76b2ff7eb8d279c208d378b[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Tue Feb 15 17:47:31 2011 -0600
+
+    Added test data and made the product listing prettier
+
+[33mcommit b8bdbbcb589102c256121548477174cc569d996c[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Tue Feb 15 17:16:20 2011 -0600
+
+    Generated a scaffold for product database table
+
+[33mcommit 5188caa58b30394a8a06b9661fa9b0ebec7cb892[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Tue Feb 15 12:05:35 2011 -0600
+
+    Updated readme file
+
+[33mcommit a8fb5031d902db7b49964ec80136f2286d9ebbab[m
+Author: stbartels <stbartels12@gmail.com>
+Date:   Tue Feb 15 12:03:24 2011 -0600
+
+    Initial Commit

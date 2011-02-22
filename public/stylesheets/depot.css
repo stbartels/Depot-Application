@@ -1,5 +1,10 @@
 /* Styles for main page */
 
+#store .entry form, #store .entry form div
+	{
+		display: inline;
+	}
+
 #banner
 	{
 		background: #9c9;
