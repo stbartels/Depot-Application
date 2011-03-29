@@ -25,9 +25,9 @@
 				<%= Time.now.strftime("Current Time: %I:%M %P") %>
 			</p>
 			
-			<div id="cart">
-				<%= render @cart %>
-			</div>
+			<%= hidden_div_if(@cart.line_items.empty?, :id => "cart") do %> 
+				<%= render @cart %> 
+			<% end %>
 		</div>
 		<div id="main">
 			<%= yield %>
